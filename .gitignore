@@ -1,0 +1,12 @@
+# Ignorar diretório de build do Cargo
+target/
+
+# Ignorar arquivos binários gerados
+*.bin
+Dump_mem.tar.gz
+
+# Ignorar arquivos temporários do sistema
+*.swp
+.DS_Store
+Thumbs.db
+

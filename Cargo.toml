@@ -1,0 +1,14 @@
+[package]
+name = "Dump_mem"
+version = "0.1.0"  # Corrigido (três números)
+edition = "2021"
+
+
+[[bin]]
+name = "Dump_mem"
+path = "src/ram_linux.rs"
+
+
+[dependencies]
+sysinfo = "0.30.10"
+
